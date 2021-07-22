@@ -1,0 +1,29 @@
+@import "header";
+
+.card .card-header {
+    background-color: #3f4d67;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 20px 25px;
+    position: relative;
+}
+
+.card .card-header h5 {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 1.1;
+    position: relative;
+}
+
+.card .card-header h5:after {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    left: -25px;
+    top: 0;
+    width: 4px;
+    height: 20px;
+}
