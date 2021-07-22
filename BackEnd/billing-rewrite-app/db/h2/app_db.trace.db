@@ -1,0 +1,21 @@
+2021-07-21 10:48:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE EMPLOYEES (ID BIGINT NOT NULL AUTO_INCREMENT, EMAIL_ID VARCHAR(255), FIRST_NAME VARCHAR(255), LAST_NAME VARCHAR(255), PRIMARY KEY (ID)) ENGINE=[*]INNODB"; expected "identifier"; SQL statement:
+create table employees (id bigint not null auto_increment, email_id varchar(255), first_name varchar(255), last_name varchar(255), primary key (id)) engine=InnoDB [42001-200]
+2021-07-21 11:10:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPLOYEES" not found; SQL statement:
+select employee0_.id as id1_0_, employee0_.email_id as email_id2_0_, employee0_.first_name as first_na3_0_, employee0_.last_name as last_nam4_0_ from employees employee0_ [42102-200]
+2021-07-21 11:10:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPLOYEES" not found; SQL statement:
+select employee0_.id as id1_0_, employee0_.email_id as email_id2_0_, employee0_.first_name as first_na3_0_, employee0_.last_name as last_nam4_0_ from employees employee0_ [42102-200]
+2021-07-21 11:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPLOYEES" not found; SQL statement:
+select employee0_.id as id1_0_, employee0_.email_id as email_id2_0_, employee0_.first_name as first_na3_0_, employee0_.last_name as last_nam4_0_ from employees employee0_ [42102-200]
+2021-07-21 11:12:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPLOYEES" not found; SQL statement:
+select employee0_.id as id1_0_, employee0_.email_id as email_id2_0_, employee0_.first_name as first_na3_0_, employee0_.last_name as last_nam4_0_ from employees employee0_ [42102-200]
+2021-07-21 11:14:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPLOYEES" not found; SQL statement:
+select employee0_.id as id1_0_, employee0_.email_id as email_id2_0_, employee0_.first_name as first_na3_0_, employee0_.last_name as last_nam4_0_ from employees employee0_ [42102-200]
+2021-07-21 11:15:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE EMPLOYEES (ID BIGINT NOT NULL AUTO_INCREMENT, EMAIL_ID VARCHAR(255), FIRST_NAME VARCHAR(255), LAST_NAME VARCHAR(255), PRIMARY KEY (ID)) ENGINE=[*]INNODB"; expected "identifier"; SQL statement:
+create table employees (id bigint not null auto_increment, email_id varchar(255), first_name varchar(255), last_name varchar(255), primary key (id)) engine=InnoDB [42001-200]
